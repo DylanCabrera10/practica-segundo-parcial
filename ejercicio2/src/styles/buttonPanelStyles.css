@@ -1,0 +1,31 @@
+:root {
+    --green: #008000;
+    --red: #ff0000;
+    --yellow: #ffff00;
+    --sm: 2px;
+    --md: 10px;
+    --lg: 20px
+}
+.button-panel-container {
+    text-align: center;
+    margin-top: var(--lg);
+  }
+  
+  .button-panel-container button {
+    padding: var(--md);
+    outline: none;
+    border: none;
+    margin: var(--md) var(--sm);
+  }
+  
+  .button-panel-container button:nth-of-type(1) {
+    background: var(--green);
+  }
+  
+  .button-panel-container button:nth-of-type(2) {
+    background: var(--red);
+  }
+  
+  .button-panel-container button:nth-of-type(3) {
+    background: var(--yellow);
+  }

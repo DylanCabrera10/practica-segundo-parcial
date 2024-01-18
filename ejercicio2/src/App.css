@@ -1,0 +1,14 @@
+.app-container {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Esto establece la altura al 100% del viewport */
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--white); 
+}

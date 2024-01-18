@@ -1,0 +1,19 @@
+:root {
+    --sm: 20px;
+    --md: 24px;
+}
+.timer-container {
+    text-align: center;
+    margin-left: -50px; 
+  }
+  
+  .timer-container h1 {
+    font-size: var(--md);
+    margin-left: -50px; 
+  }
+  
+  .timer-container span {
+    font-size: var(--sm);
+  }
+  
+  

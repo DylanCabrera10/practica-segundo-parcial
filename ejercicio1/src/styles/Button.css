@@ -1,0 +1,41 @@
+:root {
+  --purple: #663399;
+  --blue: #3498db;;
+  --white: #ffffff;
+  --sm: 2px;
+  --md: 8px;
+  --lg: 10px
+}
+.custom-button {
+ 
+  background-color: var(--purple); 
+  border: var(--sm) solid var(--blue);
+  color: var(--white);
+  padding: var(--lg);
+  cursor: pointer;
+  border-radius: var(--md);
+  font-family: sans-serif; 
+}
+
+.right-align {
+  float: right;
+}
+
+/* Centro del contenedor */
+.center-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh; /* 100% del alto de la ventana */
+}
+
+/* Nuevo estilo para la izquierda */
+.left-content {
+  display: flex;
+  align-items: center;
+}
+
+/* Añadido nuevo estilo para la derecha */
+.right-content {
+  margin-left: var(--lg); /* Ajusta el margen entre el Button y el WelcomeMessage */
+}

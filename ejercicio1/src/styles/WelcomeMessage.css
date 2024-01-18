@@ -1,0 +1,16 @@
+.welcome-message {
+  font-size: 1.6em; /* Tamaño de la fuente */
+  font-weight: bold; /* Texto en negrita */
+  text-align: center; /* Alineación al centro */
+  font-family: sans-serif;
+}
+
+/* Clase para hacer visible el mensaje */
+.visible {
+  opacity: 1;
+}
+
+/* Clase para ocultar el mensaje */
+.hidden {
+  opacity: 0;
+}
